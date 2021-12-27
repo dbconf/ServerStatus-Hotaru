@@ -1,24 +1,164 @@
 {"servers":
-	[
-		{
-			"username": "s01",
-			"password": "password",
-			"name": "Mainserver 1",
-			"type": "Dedicated Server",
-			"host": "No",
-			"location": "America",
-			"disabled": false,
-			"region":"US"
-		},
-		{
-			"username": "bs01",
-			"password": "password",
-			"name": "Backupserver 1",
-			"type": "Virtual Server",
-			"host": "No",
-			"location": "Japan",
-			"disabled": false,
-			"region":"JP"
-		}
-	]
+ [
+  {
+   "username": "cm01",
+   "password": "dabai",
+   "name": "移动国际骨干一",
+   "type": "KVM",
+   "host": "",
+   "location": "CN/CM",
+   "disabled": false,
+   "region": "CM"
+  },
+  {
+   "username": "cm02",
+   "password": "dabai",
+   "name": "移动国际骨干二",
+   "type": "KVM",
+   "host": "",
+   "location": "CN/CM",
+   "disabled": false,
+   "region": "CM"
+  },
+  {
+   "username": "cu01",
+   "password": "dabai",
+   "name": "联通国际骨干出口",
+   "type": "KVM",
+   "host": "",
+   "location": "CN/CU",
+   "disabled": false,
+   "region": "CU"
+  },
+  {
+   "username": "hk01",
+   "password": "dabai",
+   "name": "香港微软骨干出口",
+   "type": "KVM",
+   "host": "",
+   "location": "HK",
+   "disabled": false,
+   "region": "HK"
+  },
+  {
+   "username": "hk02",
+   "password": "dabai",
+   "name": "香港",
+   "type": "KVM",
+   "host": "",
+   "location": "HK",
+   "disabled": false,
+   "region": "HK"
+  },
+  {
+   "username": "sg01",
+   "password": "dabai",
+   "name": "新加坡",
+   "type": "KVM",
+   "host": "",
+   "location": "SG",
+   "disabled": false,
+   "region": "SG"
+  },
+  {
+   "username": "jp01",
+   "password": "dabai",
+   "name": "日本骨干出口",
+   "type": "KVM",
+   "host": "",
+   "location": "JP",
+   "disabled": false,
+   "region": "JP"
+  },
+  {
+   "username": "jp02",
+   "password": "dabai",
+   "name": "日本",
+   "type": "KVM",
+   "host": "",
+   "location": "JP",
+   "disabled": false,
+   "region": "JP"
+  },
+  {
+   "username": "tw01",
+   "password": "dabai",
+   "name": "台湾",
+   "type": "KVM",
+   "host": "",
+   "location": "tw",
+   "disabled": false,
+   "region": "tw"
+  },
+  {
+   "username": "sk01",
+   "password": "dabai",
+   "name": "韩国",
+   "type": "KVM",
+   "host": "",
+   "location": "SK",
+   "disabled": false,
+   "region": "SK"
+  },
+  {
+   "username": "in01",
+   "password": "dabai",
+   "name": "孟买",
+   "type": "KVM",
+   "host": "",
+   "location": "IN",
+   "disabled": false,
+   "region": "IN"
+  },
+  {
+   "username": "us01",
+   "password": "dabai",
+   "name": "美国01",
+   "type": "KVM",
+   "host": "",
+   "location": "US",
+   "disabled": false,
+   "region": "US"
+  },
+  {
+   "username": "us02",
+   "password": "dabai",
+   "name": "美国02",
+   "type": "KVM",
+   "host": "",
+   "location": "US",
+   "disabled": false,
+   "region": "US"
+  },
+  {
+   "username": "us03",
+   "password": "dabai",
+   "name": "美国03",
+   "type": "KVM",
+   "host": "",
+   "location": "US",
+   "disabled": false,
+   "region": "US"
+  },
+  {
+   "username": "us04",
+   "password": "dabai",
+   "name": "美国04",
+   "type": "KVM",
+   "host": "",
+   "location": "US",
+   "disabled": false,
+   "region": "US"
+  },
+  {
+   "username": "us",
+   "password": "dabai",
+   "name": "美国05",
+   "type": "KVM",
+   "host": "",
+   "location": "US",
+   "disabled": false,
+   "region": "US"
+  }
+ ]
 }

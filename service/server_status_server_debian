@@ -12,10 +12,10 @@
 
 NAME="ServerStatus Server"
 NAME_BIN="sergate"
-SERVER_BIN="/usr/local/ServerStatus/server"
-WEB_BIN="/usr/local/ServerStatus/web"
-CONF="/usr/local/ServerStatus/server/config.json"
-CONF1="/usr/local/ServerStatus/server/config.conf"
+SERVER_BIN="/www/wwwroot/ServerStatus/server"
+WEB_BIN="/www/wwwroot/ServerStatus/web"
+CONF="/www/wwwroot/ServerStatus/server/config.json"
+CONF1="/www/wwwroot/ServerStatus/server/config.conf"
 Info_font_prefix="\033[32m" && Error_font_prefix="\033[31m" && Font_suffix="\033[0m"
 RETVAL=0
 
