@@ -1,1 +1,87 @@
-<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="//cdn.jsdelivr.net/npm/semantic-ui/dist/semantic.min.css"><link rel="icon" href="favicon.ico"><title>ServerStatus</title><link href="css/index.b249124c.css" rel="preload" as="style"><link href="js/chunk-vendors.c1a8f844.js" rel="preload" as="script"><link href="js/index.7dd87ab9.js" rel="preload" as="script"><link href="css/index.b249124c.css" rel="stylesheet"></head><body><noscript><strong>We're sorry but ServerStatus doesn't work properly without JavaScript enabled. Please enable it to continue.</strong></noscript><div id="app"></div><script src="//cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script><script src="js/chunk-vendors.c1a8f844.js"></script><script src="js/index.7dd87ab9.js"></script></body></html>
+<!doctype html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+ <title>大白</title>
+ <!-- Fix chrome language detection -->
+ <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+ <meta http-equiv="Content-Language" content="zh" />
+ <!-- Styles -->
+ <link href="css/core.css" rel="stylesheet">
+ <link href="css/main.css" rel="stylesheet">
+ <link href="css/panel.css" rel="stylesheet">
+ <link href="css/global.css" rel="stylesheet">
+ <link href="css/suit.css" rel="stylesheet">
+ <link href="css/font-awesome.min.css" rel="stylesheet">
+ <style>
+ @font-face {
+ font-family: 'icons';
+ src: url('fonts/icons/icons.eot');
+ src: url('fonts/icons/icons.eot') format('embedded-opentype'), url('fonts/icons/icons.ttf') format('truetype'), url('fonts/icons/icons.woff') format('woff'), url('fonts/icons/icons.svg') format('svg');
+ font-weight: normal;
+ font-style: normal;
+ }
+ th {text-align:center;}
+ </style>
+</head>
+<body>
+ <section id="content" style="text-align: center;">
+ <!-- Content Row -->
+ <section class="background">
+ <div class="container">
+ <header>
+ <h1>
+ <strong>服务器状态</strong>
+ </h1>
+ <h4 class="card-title text-center"><a href="https://cdn.jsdelivr.net/gh/dbconf/cdn-cloud/0313.png"><i class="fas fa-tachometer-alt"></i>官方:测速</a><a href="https://cdn.jsdelivr.net/gh/dbconf/cdn-cloud/03091.png"><i class="fas fa-tachometer-alt"></i>-客户:测速</a></h4>
+ </header>
+ 
+ <div>
+ </div>
+ </div>
+ </section>
+ </section>
+ <div class="container">
+ <div id="loading-notice">
+ <div class="progress progress-striped active">
+ <div class="progress-bar progress-bar-warning" style="width: 100%;">加载中...</div>
+ </div>
+ </div>
+ 
+ <table class="table table-striped">
+ <thead>
+ <tr>
+ <th id="status4">运行状态</th>
+ <th id="name">节点名</th>
+ <th id="type">类型</th>
+ <th id="location">服务器位置</th>
+ <th id="uptime">在线时间</th>
+ <th id="load">在线人数</th>
+ <th id="network">网络(B/s) ↓|↑</th>
+ <th id="traffic">流量(B) ↓|↑</th>
+ <th id="cpu">CPU</th>
+ <th id="ram">RAM</th>
+ <th id="hdd">ROM</th>
+ </tr>
+ </thead>
+ <tbody id="servers" style="text-align:center;">
+ </tbody>
+ </table>
+ <br />
+ <div id="updated" style="margin-left: 5px;">Updating...</div>
+ </div>
+ <script src="js/jquery-1.10.2.min.js"></script>
+ <script src="js/bootstrap.min.js"></script>
+ <script src="js/serverstatus.js"></script>
+</body>
+<footer style="text-align:center;">
+ <div class="simple-footer">
+ Copyright &copy; 2020 Dabai
+ <div class="mt-2" id="copyright"></div>
+ </div>
+ <p>Theme by <a href="https://h.dabai.pw">大白</a></p>
+</footer>
+
+</html>
