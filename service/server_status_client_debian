@@ -12,7 +12,9 @@
 NAME="ServerStatus Client"
 NAME_BIN="status-client.py"
 Info_font_prefix="\033[32m" && Error_font_prefix="\033[31m" && Font_suffix="\033[0m"
-if [[ -e "~/ServerStatus/client/status-client.py" ]]; then
+if [[ -e "/root/ServerStatus/client/status-client.py" ]]; then
+	BIN="/root/ServerStatus/client/status-client.py"
+elif [[ -e "~/ServerStatus/client/status-client.py" ]]; then
 	BIN="~/ServerStatus/client/status-client.py"
 elif [[ -e "client/status-client.py" ]]; then
 	BIN="client/status-client.py"
